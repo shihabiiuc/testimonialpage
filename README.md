@@ -1,4 +1,4 @@
-# Create a multiple-page website in HTML
+# Testimonial page template made with only HTML CSS
 This repository is a part of my blog post.
 
 This is a plain HTML & CSS template available for download.
