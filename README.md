@@ -10,6 +10,7 @@ This is a plain HTML & CSS template available for download.
 ## Who I Am Anyway
 I'm web developer, designer & self-taught programmer and I lead a team which involves SEO gurus & content writers. You can think of me as your **one stop shop** for _Web Design & Development._
 
+
 I write for 10K+ visitors/month on my [blog.](https://shihabiiuc.com/blog/)
 If you want to explore more web development topics, please visit my blog.
 
