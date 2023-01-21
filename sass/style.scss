@@ -1,0 +1,160 @@
+/**
+* Testimonial web page example
+* Created by Shihabiiuc.com
+* You're free to use this template on your website
+* Any questions, please contact https://shihabiiuc.com/contact
+* Fonts:
+* font-family: 'Lato', sans-serif;
+* weights: 400/700
+* font-family: 'Merriweather', serif;
+*/ 
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+p {
+  margin: 10px 0;
+}
+blockquote {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 1.125rem;
+  color: #222222;
+  margin: 0 0 15px;
+  .ratings {
+    display: block;
+    margin: 0 auto 15px;
+  }
+}
+.youtube-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+  padding: 90px 15px;
+  text-align: center;
+  h1 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 12px #222222;
+    @media (min-width: 768px) {
+      font-size: 60px;
+    }
+  }
+  p {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: rgba($color: #FFFFFF, $alpha: 0.8);
+  }
+}
+.testimonials {
+  background-color: #b2e7fb;
+  padding: 90px 15px;
+  .t_wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    .item {
+      background-color: #91defb;
+      padding: 30px;
+      border-radius: 4px;
+      margin: 0 0 30px;
+      img:not(.ratings) {
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+        border: 3px solid #5ed1fc;
+        border-radius: 50%;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .item.light {
+      background-color: #c7edfc;
+    }
+    .item.dark {
+      background-color: #9fd3e7;
+    }
+    .item.gradient {
+      background-color: #F73641;
+      background-image: linear-gradient(315deg, #F73641 0%, #58cffc 74%);
+    }
+    .two-col-testimonial {
+      @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        .item {
+          flex-basis: 48%;
+        }
+      }
+    }
+    .video-testimonial {
+      margin: 0 0 30px;
+    }
+  }
+  .full-width-wrapper {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .item {
+      background-color: #097b6f;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 4px;
+      img:not(.ratings) {
+        border: 3px solid #02443d;
+        border-radius: 50%;
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+      }
+      p {
+        text-align: center;
+      }
+      @media (min-width: 768px) {
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 60px 15px;
+  background-color: #222222;
+  .ctainer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    p, a {
+      color: #FFFFFF;
+      font-size: 16px;
+    }
+  }
+}
