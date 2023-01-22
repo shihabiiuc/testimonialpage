@@ -147,6 +147,44 @@ blockquote .ratings {
   margin: 0 0 30px;
 }
 
+.testimonials .t_wrapper .cta {
+  background-color: #f53844;
+  margin: 30px 0;
+  padding: 30px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimonials .t_wrapper .cta p {
+  font-size: 1.375rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px #222222;
+}
+
+.testimonials .t_wrapper .cta a {
+  display: inline-block;
+  background-color: #000000;
+  padding: 10px 30px;
+  margin: 20px 0;
+  border-radius: 25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.testimonials .t_wrapper .cta a:hover {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+  color: #5c0309;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media (min-width: 768px) {
   .testimonials .full-width-wrapper {
     display: -webkit-box;
