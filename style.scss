@@ -7,7 +7,7 @@
 * font-family: 'Lato', sans-serif;
 * weights: 400/700
 * font-family: 'Merriweather', serif;
-*/ 
+*/
 
 * {
   box-sizing: border-box;
@@ -15,13 +15,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 img {
   max-width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 p {
@@ -29,7 +34,7 @@ p {
 }
 blockquote {
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 1.125rem;
   color: #222222;
   margin: 0 0 15px;
@@ -60,7 +65,7 @@ blockquote {
   h1 {
     font-weight: 700;
     font-size: 35px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 2px 2px 12px #222222;
     @media (min-width: 768px) {
       font-size: 60px;
@@ -69,7 +74,7 @@ blockquote {
   p {
     font-size: 1.125rem;
     text-transform: uppercase;
-    color: rgba($color: #FFFFFF, $alpha: 0.8);
+    color: rgba($color: #ffffff, $alpha: 0.8);
   }
 }
 .testimonials {
@@ -101,8 +106,8 @@ blockquote {
       background-color: #9fd3e7;
     }
     .item.gradient {
-      background-color: #F73641;
-      background-image: linear-gradient(315deg, #F73641 0%, #58cffc 74%);
+      background-color: #f73641;
+      background-image: linear-gradient(315deg, #f73641 0%, #58cffc 74%);
     }
     .two-col-testimonial {
       @media (min-width: 768px) {
@@ -122,7 +127,8 @@ blockquote {
       padding: 30px;
       text-align: center;
       border-radius: 4px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
       p {
         font-size: 1.375rem;
         font-weight: 700;
@@ -134,7 +140,7 @@ blockquote {
         padding: 10px 30px;
         margin: 20px 0;
         border-radius: 25px;
-        color: #FFFFFF;
+        color: #ffffff;
         text-transform: uppercase;
         text-decoration: none;
         font-weight: 400;
@@ -144,7 +150,8 @@ blockquote {
         background-color: #90d5ec;
         background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
         color: #5c0309;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
     }
   }
@@ -183,8 +190,9 @@ blockquote {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    p, a {
-      color: #FFFFFF;
+    p,
+    a {
+      color: #ffffff;
       font-size: 16px;
     }
   }
